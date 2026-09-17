@@ -133,6 +133,19 @@ export default function Navbar() {
                     unoptimized
                   />
                 </div>
+                <div className="h-6 md:h-7 lg:h-8 w-px bg-white/20" />
+                <div className="relative">
+                  <Image
+                    src="/college-logo.png"
+                    alt="Bharati Vidyapeeth Logo"
+                    width={620}
+                    height={310}
+                    className="h-8 md:h-9 lg:h-10 w-auto object-contain"
+                    quality={100}
+                    priority
+                    unoptimized
+                  />
+                </div>
               </Link>
             </motion.div>
 
@@ -390,13 +403,22 @@ export default function Navbar() {
               </div>
 
               {/* Logo */}
-              <div className="px-8 mb-12">
+              <div className="px-8 mb-12 flex items-center gap-3">
                 <Image
                   src="/navbar_logo_light.png"
                   alt="BVP Optica"
                   width={220}
                   height={58}
                   className="h-10 w-auto"
+                  unoptimized
+                />
+                <div className="h-8 w-px bg-white/20" />
+                <Image
+                  src="/college-logo.png"
+                  alt="Bharati Vidyapeeth"
+                  width={620}
+                  height={310}
+                  className="h-11 w-auto"
                   unoptimized
                 />
               </div>
